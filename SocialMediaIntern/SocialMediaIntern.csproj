@@ -104,6 +104,7 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <None Include="credentials.json" />
     <None Include="SocialMediaIntern_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +132,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Google.Apis.Sheets.v4">
+      <Version>1.43.0.1832</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.9</Version>
     </PackageReference>

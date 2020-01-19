@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>BEEC099B47BE5E7F06356F698F11002E04C7FAD293364E68D33D4751B8ACB8F5</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D4DC7167DC8BF7CD592016952D6B1CD2648E37D4D6BE00DBA6DE67B4C88629D6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>SocialMediaIntern-uwp_1.0.0.0_arm__cnj9vj70ehdf8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>SocialMediaIntern-uwp_cnj9vj70ehdf8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>SocialMediaIntern-uwp</RegisteredPackageID>
@@ -30,13 +30,37 @@
     <AppXManifest Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-18T04:11:53.366</Modified>
+      <Modified>2020-01-19T05:33:54.364</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\SocialMediaIntern.winmd">
       <PackagePath>SocialMediaIntern.winmd</PackagePath>
-      <Modified>2020-01-18T04:11:52.608</Modified>
+      <Modified>2020-01-19T05:33:53.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\google.apis\1.43.0\lib\netstandard2.0\Google.Apis.dll">
+      <PackagePath>Google.Apis.dll</PackagePath>
+      <Modified>2020-01-06T01:59:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\google.apis.auth\1.43.0\lib\netstandard2.0\Google.Apis.Auth.PlatformServices.dll">
+      <PackagePath>Google.Apis.Auth.PlatformServices.dll</PackagePath>
+      <Modified>2020-01-06T01:59:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\google.apis.auth\1.43.0\lib\netstandard2.0\Google.Apis.Auth.dll">
+      <PackagePath>Google.Apis.Auth.dll</PackagePath>
+      <Modified>2020-01-06T01:59:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\google.apis.core\1.43.0\lib\netstandard2.0\Google.Apis.Core.dll">
+      <PackagePath>Google.Apis.Core.dll</PackagePath>
+      <Modified>2020-01-06T01:59:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\google.apis.sheets.v4\1.43.0.1832\lib\netstandard2.0\Google.Apis.Sheets.v4.dll">
+      <PackagePath>Google.Apis.Sheets.v4.dll</PackagePath>
+      <Modified>2020-01-08T21:10:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\newtonsoft.json\10.0.2\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-04-02T07:46:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-arm\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,7 +114,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-18T03:59:17.036</Modified>
+      <Modified>2020-01-18T10:29:31.400</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Core\UWPShim.exe">
       <PackagePath>UWPShim.exe</PackagePath>

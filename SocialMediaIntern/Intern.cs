@@ -13,6 +13,8 @@ namespace SocialMediaIntern
         private List<Tweet> _tweetHistory = new List<Tweet>();
 
         //Google authentication here
+        //453298549812-jrqfiq7qvdan9ihnhjndj8pf4vhtjotp.apps.googleusercontent.com
+        //GMIGPW2uA2Gstm1NP3ZwuEw6
 
         //Twitter auth here
 
@@ -26,7 +28,7 @@ namespace SocialMediaIntern
                 }
                 catch (Exception e)
                 {
-                    Debug.WriteLine("Error: " + e.ToString());
+                    Debug.WriteLine("Error: " + e.GetBaseException());
                     //Could even send a tweet with error message here while using throwaway
                 }
                 Thread.Sleep(120000);

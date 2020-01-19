@@ -37,6 +37,10 @@
       "frameworks": {
         "uap10.0.17763": {
           "dependencies": {
+            "Google.Apis.Sheets.v4": {
+              "target": "Package",
+              "version": "[1.43.0.1832, )"
+            },
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
               "version": "[6.2.9, )"

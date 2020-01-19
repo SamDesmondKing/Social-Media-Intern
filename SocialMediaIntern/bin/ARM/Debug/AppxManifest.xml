@@ -44,9 +44,9 @@
     <Extension Category="windows.activatableClass.inProcessServer">
       <InProcessServer>
         <Path>CLRHost.dll</Path>
+        <ActivatableClass ActivatableClassId="SocialMediaIntern.Intern" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="SocialMediaIntern.Tweet" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="SocialMediaIntern.StartupTask" ThreadingModel="both" />
-        <ActivatableClass ActivatableClassId="SocialMediaIntern.Intern" ThreadingModel="both" />
         <ActivatableClass ActivatableClassId="Microsoft.UI.Xaml.Markup.ReflectionXamlMetadataProvider" ThreadingModel="both" />
       </InProcessServer>
     </Extension>

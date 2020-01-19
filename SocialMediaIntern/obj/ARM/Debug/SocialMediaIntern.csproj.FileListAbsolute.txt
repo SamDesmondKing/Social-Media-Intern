@@ -35,3 +35,17 @@ D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM
 D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637149169499223898.json
 D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637149170519737262.json
 D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637149175126080221.json
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637149226076152693.json
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.dll
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.pdb
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Auth.PlatformServices.dll
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Auth.dll
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Auth.pdb
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Core.dll
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Core.pdb
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Sheets.v4.dll
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Google.Apis.Sheets.v4.pdb
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Newtonsoft.Json.dll
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637149371673870393.json
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637149401710889435.json
+D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\obj\ARM\Debug\.winmd_cache\$SocialMediaIntern.winmd_637150088330366051.json
