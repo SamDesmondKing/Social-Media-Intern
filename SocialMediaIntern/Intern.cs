@@ -31,7 +31,6 @@ namespace SocialMediaIntern
                 catch (Exception e)
                 {
                     Debug.WriteLine("Error: " + e.GetBaseException());
-                    //SendTweet("Error: " + e.GetBaseException());
                 }
                 //Sleep for 24 hours
                 Thread.Sleep(86400000);

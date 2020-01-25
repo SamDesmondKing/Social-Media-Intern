@@ -50,7 +50,7 @@ namespace SocialMediaIntern
                this._title = this._titleList[choice];
                this._URL = this._URLlist[choice];
 
-                //Assign random unique hashtags to this tweet
+                //Assign 3 random unique hashtags to this tweet
                 var nums = Enumerable.Range(0, this._hashtagList.Count).ToArray();
 
                 for (int i = 0; i < 3; ++i)
@@ -62,7 +62,6 @@ namespace SocialMediaIntern
                 }
 
                 this._hashtags = _hashtagList[nums[0]] + " " + _hashtagList[nums[1]] + " " + _hashtagList[nums[2]];
-
             }
         }
 

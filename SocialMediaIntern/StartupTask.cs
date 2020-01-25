@@ -14,6 +14,12 @@ namespace SocialMediaIntern
         public void Run(IBackgroundTaskInstance taskInstance)
         {
             var socialMediaIntern = new Intern();
+
+            //Improvements:
+            // Increase reusability
+            // Reduce hard-coding
+            // Add database for history between restarts
+            // Add ability to specify time for posting
         }
     }
 }
