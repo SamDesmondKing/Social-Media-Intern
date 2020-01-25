@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Threading;
+using TweetSharp;
 using Windows.ApplicationModel.Appointments.AppointmentsProvider;
 
 namespace SocialMediaIntern
@@ -12,11 +14,11 @@ namespace SocialMediaIntern
 
         private List<Tweet> _tweetHistory = new List<Tweet>();
 
-        //Google authentication here
-        //453298549812-jrqfiq7qvdan9ihnhjndj8pf4vhtjotp.apps.googleusercontent.com
-        //GMIGPW2uA2Gstm1NP3ZwuEw6
-
-        //Twitter auth here
+        const string _customerKey = "KBp9PooBm7y9HBFVuo4ZTJeZ6";
+        const string _customerKeySecret = "Ic5UE28X71a6FY2V0rEeAmY11TJ6iAO9mKBa8nxLsgrlWJZbja";
+        const string _accessToken = "1220920585179430913-Kl5xDNaZVu8IYtJli20A7wfQ8TTrA1";
+        const string _accessTokenSecret = "4ihPKVrLkEBfPEqEkJNYnBElcPn4TZ9UXtM845H0Y3zVE";
+        private static readonly TwitterService _service = new TwitterService(_customerKey, _customerKeySecret, _accessToken, _accessTokenSecret);
 
         public Intern()
         {
@@ -29,9 +31,10 @@ namespace SocialMediaIntern
                 catch (Exception e)
                 {
                     Debug.WriteLine("Error: " + e.GetBaseException());
-                    //Could even send a tweet with error message here while using throwaway
+                    //SendTweet("Error: " + e.GetBaseException());
                 }
-                Thread.Sleep(120000);
+                //Sleep for 24 hours
+                Thread.Sleep(86400000);
             }
         }
 
@@ -42,8 +45,7 @@ namespace SocialMediaIntern
             //Try to compose and send a unique tweet,
             //will loop until successful.
             while (!uniqueTweet)
-            { 
-                //Give google auth here
+            {
                 var tweet = new Tweet();
                 uniqueTweet = true;
 
@@ -54,14 +56,52 @@ namespace SocialMediaIntern
                 }
 
                 if (!uniqueTweet) continue;
-                this.SendTweet(tweet);
+                SendTweet(tweet);
                 this.SaveTweet(tweet);
             }
         }
 
-        public void SendTweet(Tweet tweet)
+        //Sender that takes tweet as tweet object
+        private static void SendTweet(Tweet myTweet)
         {
-            //Tweet that shit
+
+            var status = myTweet.ToString();
+
+            _service.SendTweet(new SendTweetOptions { Status = status }, (tweet, response) =>
+            {
+                if (response.StatusCode == HttpStatusCode.OK)
+                {
+                    FormattableString message =
+                        $"{status} - SENT. Time: {DateTime.Today}";
+                    Debug.WriteLine(message);
+                }
+                else
+                {
+                    FormattableString message = $"{status} - FAILED. HTTP response: {response.Error.Message} Time: {DateTime.Today}";
+                    Debug.WriteLine(message);
+                }
+            });
+        }
+
+
+        //Sender that takes tweet as String
+        private static void SendTweet(string status)
+        {
+
+            _service.SendTweet(new SendTweetOptions { Status = status }, (tweet, response) =>
+            {
+                if (response.StatusCode == HttpStatusCode.OK)
+                {
+                    FormattableString message =
+                        $"{status} - SENT. Time: {DateTime.Today}";
+                    Debug.WriteLine(message);
+                }
+                else
+                {
+                    FormattableString message = $"{status} - FAILED. HTTP response: {response.Error.Message} Time: {DateTime.Today}";
+                    Debug.WriteLine(message);
+                }
+            });
         }
 
         public void SaveTweet(Tweet tweet)

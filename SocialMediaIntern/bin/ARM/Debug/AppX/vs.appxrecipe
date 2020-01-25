@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>D4DC7167DC8BF7CD592016952D6B1CD2648E37D4D6BE00DBA6DE67B4C88629D6</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>104120124FB06C6F9C2B9BBCA69403B15098DDE836EE94519AD579296E8C7233</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>SocialMediaIntern-uwp_1.0.0.0_arm__cnj9vj70ehdf8</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>SocialMediaIntern-uwp_cnj9vj70ehdf8!App</RegisteredUserModeAppID>
     <RegisteredPackageID>SocialMediaIntern-uwp</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-01-19T05:33:54.364</Modified>
+      <Modified>2020-01-25T06:10:30.804</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\SocialMediaIntern.winmd">
       <PackagePath>SocialMediaIntern.winmd</PackagePath>
-      <Modified>2020-01-19T05:33:53.036</Modified>
+      <Modified>2020-01-25T06:10:30.367</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\google.apis\1.43.0\lib\netstandard2.0\Google.Apis.dll">
       <PackagePath>Google.Apis.dll</PackagePath>
@@ -65,6 +65,14 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-arm\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
       <Modified>2019-07-22T03:00:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\tweetsharp\2.3.1\lib\4.0\Hammock.ClientProfile.dll">
+      <PackagePath>Hammock.ClientProfile.dll</PackagePath>
+      <Modified>2013-06-22T05:40:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Samue\.nuget\packages\tweetsharp\2.3.1\lib\4.0\TweetSharp.dll">
+      <PackagePath>TweetSharp.dll</PackagePath>
+      <Modified>2013-06-22T05:40:26.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -114,7 +122,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-01-18T10:29:31.400</Modified>
+      <Modified>2020-01-25T04:31:16.326</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\projects\CSharp\SocialMediaIntern\SocialMediaIntern\SocialMediaIntern\bin\ARM\Debug\Core\UWPShim.exe">
       <PackagePath>UWPShim.exe</PackagePath>
