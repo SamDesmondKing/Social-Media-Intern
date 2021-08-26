@@ -14,10 +14,10 @@ namespace SocialMediaIntern
 
         private List<Tweet> _tweetHistory = new List<Tweet>();
 
-        const string _customerKey = "KBp9PooBm7y9HBFVuo4ZTJeZ6";
-        const string _customerKeySecret = "Ic5UE28X71a6FY2V0rEeAmY11TJ6iAO9mKBa8nxLsgrlWJZbja";
-        const string _accessToken = "1220920585179430913-Kl5xDNaZVu8IYtJli20A7wfQ8TTrA1";
-        const string _accessTokenSecret = "4ihPKVrLkEBfPEqEkJNYnBElcPn4TZ9UXtM845H0Y3zVE";
+        const string _customerKey = "";
+        const string _customerKeySecret = "";
+        const string _accessToken = "";
+        const string _accessTokenSecret = "";
         private static readonly TwitterService _service = new TwitterService(_customerKey, _customerKeySecret, _accessToken, _accessTokenSecret);
 
         public Intern()
