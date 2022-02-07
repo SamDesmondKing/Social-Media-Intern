@@ -23,10 +23,8 @@ namespace SocialMediaIntern
             { 
 
                 //Get content from google sheets as JSONs
-                var contentJson = wc.DownloadString(
-                    @"https://script.google.com/macros/s/AKfycbwOOmvw-VXFojjxW0EC1n2mFB0GZ-U5hsCBiT-h0tbyMGldHQ/exec");
-                var hashtagJson = wc.DownloadString(
-                    @"https://script.google.com/macros/s/AKfycbwP_pD-QhPSFWFxNywGZudzGE5BQzyrTKP46UbmMvTQZbjJDw/exec");
+                var contentJson = wc.DownloadString("");
+                var hashtagJson = wc.DownloadString("");
 
                 var content = JArray.Parse(contentJson); 
                 var hashtags = JArray.Parse(hashtagJson);
