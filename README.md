@@ -9,8 +9,4 @@ The bot is designed to run on a raspi, running windows 10 IOT.
 [Main Logic](SocialMediaIntern/Intern.cs)</br>
 [Tweet Construction](SocialMediaIntern/Tweet.cs)
 
-## Content Well
-- Articles and Copy: https://bit.ly/2NUT5HD
-- Hashtags: https://bit.ly/2NQuuUA
-
 Check out a test run here: https://twitter.com/InternTest5
